@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
+
+.vlns .row>*{
+  width: auto;
+}
+
+.vlns .vl-metric {
+  width: 50% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.app {
+    background-color: #fafdf0;
+}
+
+@font-face {
+    font-family: 'vaniobold';
+    src: url('./Components/Assets/Fonts/vanio-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vaniobold_italic';
+    src: url('./Components/Assets/Fonts/vanio-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vanioextra_bold';
+    src: url('./Components/Assets/Fonts/vanio-extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vanioextra_bold_italic';
+    src: url('./Components/Assets/Fonts/vanio-extrabolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vaniomedium';
+    src: url('./Components/Assets/Fonts/vanio-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vaniomedium_italic';
+    src: url('./Components/Assets/Fonts/vanio-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vanioregular';
+    src: url('./Components/Assets/Fonts/vanio-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vanioitalic';
+    src: url('./Components/Assets/Fonts/vanio-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vaniosemi_bold';
+    src: url('./Components/Assets/Fonts/vanio-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vaniosemi_bold_italic';
+    src: url('./Components/Assets/Fonts/vanio-semibolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
