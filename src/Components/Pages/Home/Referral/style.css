@@ -1,0 +1,138 @@
+.main_referral {
+  width: 70%;
+  margin: 5% auto;
+}
+
+.image_referral {
+  display: flex;
+  justify-content: center;
+}
+
+.image_referral h1 {
+  display: inline-block;
+  background: url(../../../Assets/Star2.png), url(../../../Assets/Vector.png);
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px 30px 20px;
+  background-size: 58px 62px, 155px 105px;
+  margin-bottom: 5%;
+  font-size: 69px;
+  font-weight: 500;
+  font-family: vaniomedium;
+}
+
+.box_referral {
+  width: 100%;
+  max-width: 100%;
+  background: #2ea2a4;
+  color: #fff;
+  border-radius: 20px;
+  padding: 100px;
+}
+
+.box_referral_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box_referral_flex_left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.refbox_header_sec {
+  position: relative;
+  display: inline-block;
+}
+
+.refbox_top_img {
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  right: auto;
+  bottom: auto;
+  width: 35px;
+}
+
+.refbox_bottom_img {
+  height: 32px !important;
+  width: 32px !important;
+  bottom: -10px;
+  right: -25px;
+  position: absolute;
+}
+
+.refbox_header_sec h5 {
+  line-height: 50px;
+  font-size: 40px;
+  font-family: vaniomedium;
+}
+
+.box_referral_flex_left p {
+  font-weight: 300;
+  font-size: 25px;
+  font-family: vaniomedium;
+}
+
+.main_referral .button {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  background: #2ea2a4 !important;
+  box-shadow: none;
+}
+
+.box_referral_flex_right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.box_referral_flex_right img {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .main_referral {
+    width: 95%;
+  }
+
+  .box_referral {
+    padding: 50px;
+  }
+
+  .box_referral_flex_left {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .box_referral_flex_right {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image_referral h1 {
+    font-size: 40px;
+    background-size: 58px 62px, 100px 50px;
+  }
+
+  .box_referral_flex {
+    flex-direction: column-reverse;
+  }
+
+  .refbox_header_sec h5 {
+    font-size: 30px;
+  }
+
+  .box_referral_flex_left p {
+    font-size: 22px;
+    margin-top: 2%;
+  }
+}

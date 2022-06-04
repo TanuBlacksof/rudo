@@ -1,0 +1,86 @@
+.sparkling_main {
+    width: 80%;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+
+.sparkling_view {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sparkling_view h1 {
+    color: #1C96A0;
+    font-size: 30px;
+}
+
+.sparkling_view img {
+    width: 50px;
+    height: 50px;
+}
+
+.sparkling_flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sparkling_flex_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sparkling_image {
+    width: 100px;
+}
+
+.sparkling_para {
+    width: 25%;
+    color: #000;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* margin-left: 10px; */
+}
+
+@media screen and (max-width: 1366px) {
+    .sparkling_para {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sparkling_view img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sparkling_flex {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .sparkling_flex_inner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sparkling_view {
+        width: 100%;
+    }
+
+    .sparkling_span {
+        display: none;
+    }
+
+    .sparkling_para {
+        width: 80%;
+        text-align: center;
+    }
+}

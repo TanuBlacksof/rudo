@@ -1,0 +1,243 @@
+.main_Blade {
+  width: 100%;
+  /* height: 90vh; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 100px;
+}
+
+.w2 {
+  width: 48%;
+  margin: 0 20px;
+  padding: 0 5px;
+}
+
+.float_text {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+.Input_Form {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF1D9;
+  padding: 10px;
+}
+
+.inputFieldname {
+  width: 25%;
+  border-radius: 0.5rem;
+  border: 2px solid #FFA100;
+  box-shadow: 0 0 5px #FFA100;
+  padding: 5px;
+  outline: none;
+  margin: 0px 2px;
+}
+
+.inputFieldemail {
+  width: 40%;
+  border-radius: 0.5rem;
+  border: 2px solid #FFA100;
+  box-shadow: 0 0 5px #FFA100;
+  padding: 5px;
+  outline: none;
+  margin: 0px 2px;
+}
+
+.button_new {
+  padding: 10px 40px;
+  border: 2px solid #fdfdfd;
+  box-shadow: 0 4px 15px rgb(231 85 83 / 30%);
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e75553;
+}
+
+.content_text {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.top_frame_button {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top_frame_button button {
+  border-radius: 0px !important;
+}
+
+.right-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-element .image {
+  text-align: right;
+  position: relative;
+}
+
+.join_waitlist {
+  font-family: "vaniobold";
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.blank-row {
+  height: 90px;
+}
+
+.blade_text {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.arrow_spring {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.line_spring {
+  width: 30%;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.blade_svg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner3 {
+  width: 20%;
+  /* height: 300px; */
+}
+
+.banner2 {
+  width: 40%;
+  /* height: 300px; */
+}
+
+.main_br {
+  display: none;
+}
+
+.main_mobile {
+  display: none;
+}
+
+@media (max-width: 1366px) {
+  .banner3 {
+    width: 15%;
+    /* height: 225px; */
+  }
+
+  .banner2 {
+    width: 28%;
+    /* height: 225px; */
+  }
+
+  .blade_text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_Blade {
+    display: none;
+  }
+
+  .main_mobile {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .float_text {
+    width: 85%;
+  }
+
+  .blade_text {
+    font-size: 25px;
+    line-height: 1.2;
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .react-player {
+    margin: 0 auto;
+  }
+
+  .join_now_message {
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .content_text {
+    width: 95%;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .main_br {
+    display: block;
+  }
+
+  .arrow_spring {
+    width: 70%;
+    margin-top: -20%;
+  }
+
+  .arrow_spring img {
+    width: 100%;
+  }
+
+  .banner3 {
+    width: 50%;
+    height: 50%;
+    display: none;
+  }
+
+  .banner2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Input_Form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .inputFieldname {
+    width: 80%;
+    margin: 5px;
+  }
+
+  .inputFieldemail {
+    width: 80%;
+    margin: 5px;
+  }
+}

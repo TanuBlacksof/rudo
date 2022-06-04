@@ -1,0 +1,29 @@
+.launching-btn,
+.launching-btn:hover,
+.launching-btn:active,
+.launching-btn:focus,
+.launching-btn:active:focus {
+  color: #f87f7f;
+  background-color: #ffe4b6;
+  border: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: rotate(270deg);
+  right: -60px;
+  position: fixed;
+  top: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-family: vanioregular;
+  z-index: 99 !important;
+}
+
+.launching-btn a {
+  color: #f87f7f;
+}
+
+@media screen and (max-width: 768px) {
+  .launching-btn {
+    top: 70%;
+    display: none;
+  }
+}
